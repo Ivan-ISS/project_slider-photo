@@ -1,0 +1,122 @@
+@media (max-width: 767px) {
+
+    body {
+        background-image: none;
+    }
+
+    .definition_common-bound {
+        max-width: 340px;
+        margin: 0 auto;
+    }
+
+/* section projects--------------------------------------------------------------------------- */
+
+    .projects {
+        padding-bottom: 58px;
+    }
+
+    .projects__wrapper {
+        padding: 0;
+    }
+
+    .projects__list {
+        display: none;
+    }
+
+    .projects__info-block {
+        align-items: center;
+    }
+
+    .title_position_projects {
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 22px;
+    }
+
+    .projects__text {
+        margin: 0 0 69px;
+        text-align: center;
+        font-size: 11px;
+        line-height: 17.7px;
+    }
+
+    .projects__img-block-mobile {
+        display: flex;
+        position: relative;
+    }
+
+    .projects__img-photo-mobile {
+        width: 340px;
+        height: 241px;
+        object-fit: cover;
+        margin-bottom: 36.5px;
+    }
+    
+    .projects__mobile-btn {
+        position: absolute;
+        border-radius: 36px;
+        width: 36px;
+        height: 36px;
+        background: #e3b873;
+        border: none;
+        cursor: pointer;
+        transition: color 0.2s ease;
+    }
+    
+    .projects__mobile-btn:hover {
+        background-color: #b68c49;
+    }
+
+    .projects__mobile-btn_direction_left {
+        padding: 11px 14.7px 11px 13px;
+        left: 14px;
+        top: 103px;
+    }
+
+    .projects__mobile-btn_direction_right {
+        padding: 11px 13px 11px 14.7px;
+        right: 14px;
+        top: 103px;
+    }
+
+    .projects__data {
+        gap: 31px;
+    }
+
+    .projects__data_position_upper {
+        margin-bottom: 34px;
+    }
+    
+    .projects__data-item {
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+    }
+    
+    .projects__data-item_size_s {
+        width: 129px;
+    }
+    
+    .projects__data-item_size_m {
+        width: 181px;
+    }
+    
+    .projects__data-heading {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .projects__data-text {
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .projects__selection {
+        display: none;
+    }
+
+    .projects__img-block {
+        display: none;
+    }
+
+}
